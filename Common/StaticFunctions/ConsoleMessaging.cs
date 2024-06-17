@@ -1,6 +1,6 @@
 ﻿namespace Common.StaticFunctions;
 
-public class ConsoleMessaging
+public static class ConsoleMessaging
 {
     public static void PluginMessage(string message)
     {
