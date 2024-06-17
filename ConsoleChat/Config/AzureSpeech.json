@@ -1,0 +1,8 @@
+{
+  "AzureSpeech": {
+    "SubscriptionKey": "YOUR_KEY",
+    "Region": "swedencentral",
+    "VoiceName": "en-US-AvaNeural",
+    "Language": "en-US"
+  }
+}

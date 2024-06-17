@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SemanticKernel", "SemanticKernel\SemanticKernel.csproj", "{A8CC3BAB-5DB4-452C-9633-E20FAABB703C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleChat", "ConsoleChat\ConsoleChat.csproj", "{D2551DF9-6B87-4A8A-883D-6EEEDDFEE7D2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common", "Common\Common.csproj", "{B54FC64F-9C75-4C8C-A94A-96F2030A382C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A8CC3BAB-5DB4-452C-9633-E20FAABB703C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8CC3BAB-5DB4-452C-9633-E20FAABB703C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8CC3BAB-5DB4-452C-9633-E20FAABB703C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8CC3BAB-5DB4-452C-9633-E20FAABB703C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D2551DF9-6B87-4A8A-883D-6EEEDDFEE7D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2551DF9-6B87-4A8A-883D-6EEEDDFEE7D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2551DF9-6B87-4A8A-883D-6EEEDDFEE7D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2551DF9-6B87-4A8A-883D-6EEEDDFEE7D2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B54FC64F-9C75-4C8C-A94A-96F2030A382C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B54FC64F-9C75-4C8C-A94A-96F2030A382C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B54FC64F-9C75-4C8C-A94A-96F2030A382C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B54FC64F-9C75-4C8C-A94A-96F2030A382C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
