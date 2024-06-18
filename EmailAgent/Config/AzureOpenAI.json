@@ -1,0 +1,12 @@
+{
+  "AzureOpenAI": {
+    "Endpoint": "YOUR_ENDPOINT",
+    "Key": "YOUR_KEY",
+    "Deployments": {
+      "gpt-4o": "yv-gpt-4o",
+      "gpt-35": "yv-gpt-35-turbo",
+      "dall-e": "yv-dall-e-3",
+      "whisper": "yv-whisper"
+    }
+  }
+}

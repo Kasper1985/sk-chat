@@ -6,6 +6,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleChat", "ConsoleChat\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common", "Common\Common.csproj", "{B54FC64F-9C75-4C8C-A94A-96F2030A382C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmailAgent", "EmailAgent\EmailAgent.csproj", "{33AD7486-1BB0-45A9-ABBE-94D136ADD50C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +26,9 @@ Global
 		{B54FC64F-9C75-4C8C-A94A-96F2030A382C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B54FC64F-9C75-4C8C-A94A-96F2030A382C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B54FC64F-9C75-4C8C-A94A-96F2030A382C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{33AD7486-1BB0-45A9-ABBE-94D136ADD50C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33AD7486-1BB0-45A9-ABBE-94D136ADD50C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33AD7486-1BB0-45A9-ABBE-94D136ADD50C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33AD7486-1BB0-45A9-ABBE-94D136ADD50C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

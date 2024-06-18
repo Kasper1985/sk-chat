@@ -83,7 +83,7 @@ public class Chat(Kernel kernel, SpeechPlugin speechPlugin = null)
             ConsoleMessaging.SystemMessage($"[Used tokens: {usage.CompletionTokens} completion tokens, {usage.PromptTokens} prompt tokens, {usage.TotalTokens} total tokens]");
             
             // Add the message from the agent to the chat history
-            chatHistory.AddMessage(AuthorRole.Assistant, response);
+            chatHistory.AddAssistantMessage(response);
             Console.ResetColor();
         }
         
