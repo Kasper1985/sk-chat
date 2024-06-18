@@ -1,4 +1,5 @@
 ﻿using Microsoft.SemanticKernel;
+using Microsoft.SemanticKernel.Plugins.Core;
 using SemanticKernel.Config;
 using SemanticKernel.Plugins;
 
@@ -34,6 +35,9 @@ public static class ConfigurationSetup
         kernelBuilder.Plugins.AddFromType<LightPlugin>();
         kernelBuilder.Plugins.AddFromType<FibonacciPlugin>();
         kernelBuilder.Plugins.AddFromType<ImagePlugin>();
+        #pragma warning disable SKEXP0050
+        kernelBuilder.Plugins.AddFromType<TimePlugin>();
+        #pragma warning restore SKEXP0050
         
         return kernelBuilder.Build();
     }
