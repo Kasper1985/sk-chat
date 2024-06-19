@@ -1,0 +1,11 @@
+{
+  "Spotify": {
+    "ClientId": "YOUR_CLIENT_ID",
+    "ClientSecret": "YOUR_CLIENT_SECRET",
+    "AuthorizeEndpoint": "https://accounts.spotify.com/authorize",
+    "TokenEndpoint": "https://accounts.spotify.com/api/token",
+    "RedirectUri": "http://localhost:4711/spotify/callback",
+    
+    "ApiBaseAddress": "https://api.spotify.com/v1/"
+  }
+}

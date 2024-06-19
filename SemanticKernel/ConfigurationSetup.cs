@@ -1,4 +1,5 @@
-﻿using Microsoft.SemanticKernel;
+﻿using Microsoft.Extensions.DependencyInjection.Extensions;
+using Microsoft.SemanticKernel;
 using Microsoft.SemanticKernel.Plugins.Core;
 using SemanticKernel.Config;
 using SemanticKernel.Plugins;
@@ -7,7 +8,7 @@ namespace SemanticKernel;
 
 public static class ConfigurationSetup
 {
-    public static Kernel ConfigureKernel(AzureOpenAiConfig config)
+    public static Kernel ConfigureKernel(AzureOpenAiConfig config, SpotifyConfig spotifyConfig = null)
     {
         var kernelBuilder = Kernel.CreateBuilder();
         
@@ -38,6 +39,12 @@ public static class ConfigurationSetup
         #pragma warning disable SKEXP0050
         kernelBuilder.Plugins.AddFromType<TimePlugin>();
         #pragma warning restore SKEXP0050
+
+        if (spotifyConfig is not null)
+        {
+            kernelBuilder.Services.TryAddSingleton(spotifyConfig);
+            kernelBuilder.Plugins.AddFromType<SpotifyPlugin>();
+        }
         
         return kernelBuilder.Build();
     }
